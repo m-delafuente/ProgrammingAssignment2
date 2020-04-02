@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
     ## uses <<- since x,m are outside scope of this function
     set <- function(y) {    
         x <<- y
-        m <<- NULL
+        inv <<- NULL
     }
     
     ## retrieves the value of the special matrix by returning itself
